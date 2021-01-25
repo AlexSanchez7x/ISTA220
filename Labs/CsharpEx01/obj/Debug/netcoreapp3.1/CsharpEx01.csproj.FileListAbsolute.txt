@@ -1,0 +1,13 @@
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.AssemblyInfoInputs.cache
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.AssemblyInfo.cs
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\bin\Debug\netcoreapp3.1\CsharpEx01.exe
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\bin\Debug\netcoreapp3.1\CsharpEx01.deps.json
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\bin\Debug\netcoreapp3.1\CsharpEx01.runtimeconfig.json
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\bin\Debug\netcoreapp3.1\CsharpEx01.runtimeconfig.dev.json
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\bin\Debug\netcoreapp3.1\CsharpEx01.dll
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\bin\Debug\netcoreapp3.1\CsharpEx01.pdb
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.dll
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.pdb
+C:\Users\Okami\MSSA2021\ISTA220\Labs\CsharpEx01\obj\Debug\netcoreapp3.1\CsharpEx01.genruntimeconfig.cache

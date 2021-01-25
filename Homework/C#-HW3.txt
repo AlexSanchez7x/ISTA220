@@ -1,0 +1,109 @@
+1. What is a method?
+A method is a named sequence of statements. Methods can be given some data for processing and can return information, which is usually the result of the processing. Methods are a fundamental and powerful mechanism.; (a named block of code that optionally accepts input and rturns output)
+
+2. (Not in book) What is the difference between a function and a procedure/subprocedure/subroutine?
+a function is a named block of code that returns a value and it does not take an action all it does is return a value
+sub procedure takes an action PRINT is an example of a sub procedure
+
+
+3. What does a return statement do?
+Returns information from a method when the return type is not void. specifiecs the value that the method returns
+
+
+4. What is an expression bodied method?
+its a simplified form of writting a method they operate the same as methods the main difference is the use of the => operator to reference the expression that forms the body of the method and the absence of a return statement. There is actually no difference in functionality between using an ordinary method and an expression-bodied method; an expression-bodied method is
+merely a syntactic convenience
+
+
+5. What is the scope of a variable?
+When a variable can be accessed at a particular location in a program, the variable is said to be in scope at that location
+like
+{
+this
+}
+
+
+6. What is a field?
+A variable defined by a class is a field. In contrast with local variables, you can use fields to share information between methods.(a field is a variable)
+
+7. What is an overloaded method?
+Two identifiers that have the same name and are declared in the same scope, they are said to be overloaded.
+
+
+
+8. How do you call a method that requires arguments?
+
+Console.WriteLine("The answer is,  this");
+you would use parentheses
+you call a method using a () if itplace arguments inside the parameter list
+
+9. How do you write a method, that is, specify the method definition, that requires a parameter list?
+You write the parameters between opening and closing parentheses, ( ), as though you’re declaring variables, with the name of the type followed by the name of the parameter. If the method you’re writing has two or more parameters, you must separate them with commas.
+ 
+(You write a method by using thses 4 things 1) name of the method, 2) specify the type of method (int, string, void), 3)parameter list, still have to provide a parameter list even if there is none(), 
+4)the body of the method)
+
+
+
+10. How do you specify a parameter as optional when defining a method?
+You specify that a parameter is optional when you define a method by providinga default value for the parameter. 
+(You indicate a default value by using theassignment operator. using the optmethod() and providing a default value for the variable)
+
+11. How do you pass a argument to a method as a named parameter?
+To pass an argument as a named parameter, you specify the name of the parameter, followed by a colon and the value to use.
+
+12. How do you return values from a method? Can you return multiple values from a method, and if so, how?
+
+To return a value from a method you use a return statement at the end of the processing in the method body. A return statement consists of the keyword return followed by an expression that specifies the returned value and a semicolon. The type of the expression must be the same as the type specified by the method declaration. For example, if a method returns an int, the return statement must return an int; otherwise, your program will not compile.; You return a tuple
+
+Put a return statement to your method body, you can return multiple return statements by adding it into the scope of the method this called creating a tuple
+
+13. What is a tuple? How do you define a method that returns multiple values? Give an example of a method that returns multiple values other than the example in the book.
+
+A tuple is simply a small collection of values (strictly speaking, a tuple contains two values, but C# tuples can comprise bigger sets than this). You indicate that a method returns a tuple by specifying a list of types as part of the method definition; one type for each value returned. The return statement in the method returns a list of values.
+
+(string,string) returnMultipleValues('...')
+{ 
+string val1;
+string val2;
+...  // Calculate values for val1 and val2
+return(val1, val2);
+}
+string retVal1, retVal2;
+(retVal1, retVal2) = returnMultipleValues(...);
+
+14. Examine the method definition on page 83 of the book. Desk check the execution of this method. What do you discover? This is called recursion.
+1 long factorial ( int dataValue )
+2 {
+3 if ( dataValue == 1 )
+4 return1 ;
+5 else
+6 return dataValue * factorial ( dataValue = 1 ) ;
+7 }
+recursion is a function that calls the function either directly or indirectly. 
+fac(5)
+    fac(4)
+        fac(3)
+             fac(2)
+                  fac(1)
+                  1
+                  2*1
+             3*2*1
+         4*3*2*1
+     5*4*3*2*1
+15. How does the compiler resolve an ambiguity between named arguments and optional parameters?
+
+It resolves the one that most closely matches the
+method call
+
+
+16. The book states: “A key feature of C# and other languages designed for the .NET Framework is the ability to interoperate with applications and components written with other technologies.” What is the COM and how is the CLR dependent on the COM?
+
+Component Object Model abreviated as (COM) is a principal technologies that underpins many Windowsapplications and services running outside the .NET Framework is the
+
+CLR is dependent on COM because it allows it to interoperate
+
+
+
+
+

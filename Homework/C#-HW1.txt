@@ -1,0 +1,42 @@
+1. A console application is an application that runs in a Command
+Prompt window instead of providing a graphical user interface (GUI).
+
+2. .NET Core is used for building portable applications that can also run on other operating systems, such as Linux. However, .NET Core applications do not provide the range of features available to the complete .NET Framework. ()
+
+3. The Main method designates the program’s entry point. This method should
+be defined in the manner specified in the Program class as a static method (when an applications runs it looks for a method named Main. if it doesn't find it it doesn't execute.)
+
+4. This is the top-level solution file. Each application
+contains a single solution file;
+
+This is the C# project file. Each project file references one or
+more files containing the source code and other artifacts for the project,
+such as graphics images;
+
+AssemblyInfo.cs is a special file that you can use
+to add attributes to a program, such as the name of the author, the date the
+program was written, and so on. You can specify additional attributes to
+modify the way in which the program runs
+
+5. NameSpaces help organize code by creating containers for items such as classes (A better way to name things that might have the same name)
+
+6. A using directive brings a namespace into scope. In the subsequent code in the same file, you no longer need to explicitly qualify objects with the namespace to which they belong.(Lets you know which namespace to pull from)
+
+7. Main defines the point at which the program starts;  In a UWP app, the App.xaml file provides the entry point at which the application starts running.
+
+8. An assembly is a file that usually has the .dll file name extension, although strictly speaking, executable programs with the .exe file name extension are also assemblies. An assembly can contain many classes. (Libraries of dynamic code.)
+
+9. 19 (18)
+
+10. Namespaces and Asemblies help organize eachother and the code they're in. A single assembly can contain classes defined in many namespaces, and a single namespace can span multiple assemblies. (No relation)
+
+11. an App with a graphical user interface
+
+12. This action compiles the C# code, resulting in a program that you can run. 
+
+13. Bytecode is program code that has been compiled from source code into low-level code designed for a software interpreter; 
+Microsoft CIL is s the intermediate language binary instruction set defined within the Common Language Infrastructure (CLI) specification;
+Yes; Because CIL is object-oriented, stack-based bytecode.
+
+14. When you run a app in debug mode, a debug toolbar appears near the top of the form. You can use this toolbar to track how the user is navigating through the form and
+monitor how the contents of the controls on the form change. basically you can see what your code is doing while it runs. (Script sent to compilier line and sends it to a computer line by line. interpretted program is slow, compiled is fast, but if you have an error in a compiled program it will fail, in an interpretted program it will at the first mistake.)

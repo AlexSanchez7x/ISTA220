@@ -1,0 +1,7 @@
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\obj\Debug\DailyRate.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\obj\Debug\DailyRate.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\bin\Debug\DailyRate.exe.config
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\bin\Debug\DailyRate.exe
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\bin\Debug\DailyRate.pdb
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\obj\Debug\DailyRate.exe
+C:\Users\Okami\MSSA2021\ISTA220\Labs\DailyRate Using Optional Parameters\DailyRate\obj\Debug\DailyRate.pdb

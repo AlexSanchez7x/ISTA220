@@ -1,0 +1,85 @@
+1. What are all possible values of Boolean expression?
+
+
+Bool is a data type that can hold values only of true or false
+
+
+2. List the equality operators. List the relational operators. List the logical operators. How are they the same? How are they different?
+
+
+Equality operators: ( == , != ); Relational Operators: (< , <= , > , =< );
+Relational Operator: (&& , ||);
+These operators are similar to the equality and relational operators in that the value of the expressions in which they appear is either true or false, but they differ in that the values on which they operate must also be either true or false. NOT is a logical operator
+
+
+3. What is the general concept of short circuiting? 
+
+
+When an operator is bypassed and not evaluated
+
+
+4. What are the diferences in how short circuiting works for && and ||?
+
+
+
+if an && operator and is short circuted the whole expression is false and if an || operator is shortcircuted the expression is true
+
+
+
+5. Look at the list of operators. What operator has the highest precedence? Which has the lowest? 
+
+
+The Parentheses (), has the highest precedence and Assignment Operator =, has the lowest precedence
+
+
+6. In an if or else construction using multiple lines of code, what effect does the use of curly braces have?
+
+
+It starts a new scope that you can define variables in and lets you perform more than one statment. this type of grouping between the { } is called a block.
+(if the body of your body has an if or else construct when different conditions are met to give different evaluations)
+
+
+
+
+7. In a switch statement, what happens if you omit break?
+
+
+Code can fall through to the next label.
+()
+
+
+8. The four keywords in a switch statement are switch, case, break, and default. Explain what each keyword does.
+
+Switch- accepts the variable and accepts expression or value of accepted type signals to compiler that you are about to do a switch 
+Case- a label to compare the expressions
+Break- used th break flow in the cases and return control to outside code stops execution from running
+Defaul-If none of the constantExpression values is equal to the value of the controllingExpression, the statements below the optional default label run.
+
+
+
+
+9. Look at the source listing below. It contains two methods: recurr1() and recurr2(). There is a signifcant difference between the two methods. What is it?
+
+
+recurr1() has 1 parameter and recurr2() has 2 parameters in the parameter list
+the 2nd method doesn't create a new stackinternally the compiler turns tail recursive code into an iteration statement
+recurr2() is tail recurssion
+
+
+10. (Not in book) What is a recursive method? Using a language you know (such as English), write a recursive method that adds up the integers in a list of integers. The input to the method is a list of
+integers and the output is a scalar value representing a sum.
+
+
+A Recursive Method is a method that calling itself.;
+
+
+11. (Not in book) Read a short summary of De Morgan's laws.
+(a) Explain how this statement, "It's not snowing or raining," is the same as this statement, "It's not snowing and it's not raining."
+(b) Explain how this statement, "I'm not running and walking," is the same as this statement, "I'm not running or I'm not walking."
+
+
+(A) These staements are the same because in both statments the weather is something besides snow rain.
+
+(B) These statments are the same because the person isn't running and they aren't walking.
+
+

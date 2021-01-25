@@ -1,0 +1,48 @@
+1. Any variables declared inside the body of a method are scoped
+to that method; they disappear when the method ends and can be accessed only
+by code running in that method. These variables are called local variables
+because they are local to the method in which they are declared; they are not in
+scope in any other method.()
+
+2. A statement is a command that performs an action, such as calculating a value
+and storing the result or displaying a message to a user. You combine statements
+to create methods. (A statement executes a command)
+
+3. Identifiers are the names that you use to identify the elements in your programs,
+such as namespaces, classes, methods, and variables. You can use only letters (uppercase and lowercase), digits, and underscore characters. An identifier must start with a letter or an underscore.
+
+4. Keywords are predefined, reserved identifiers that have special meanings to the compiler.
+
+5. A variable is a storage location that holds a value. You can think of a variable as
+a box in the computer’s memory that holds temporary information. You must
+give each variable in a program an unambiguous name that uniquely identifies it
+in the context in which it is used. You use a variable’s name to refer to the value
+it holds.(a Variable is a name location in memory that may contain a value)
+
+6. You declare the type and name of a variable in a declaration statement. int, float, or string;
+The equal sign is the assignment operator, which assigns the value on its
+right to the variable on its left.
+
+7. If you open a project file rather than a solution file, Visual Studio 2017 automatically creates a new solution file for it;
+This situation can be confusing if you are not aware of this feature because it can result in you accidentally generating multiple solutions for the same project.
+
+8. opertors you can use on a value depend on the values type 
+
+9. using the ToString method
+
+10. The .NET Framework provides a method called Int32.Parse that you can use to convert a string value to an integer if you need to perform arithmetic computations on values held as strings.
+
+11. Precedence governs the order in which an expression’s operators are evaluated.Consider the following expression, which uses the + and * operators; Associativity is the direction (left or right) in which the operands of an operator are evaluated. Example: 2 + 3 * 4. multiplicatives go first (* ,  /, ) and have precedence over the
+additive operators (+ and –)
+(Precedence is Vertical; Associativity is Horizontal)
+
+
+12.  C# does not allow you to use an unassigned variable. You must
+assign a value to a variable before you can use it; otherwise, your program will not compile. This requirement is called the definite assignment rule.
+
+13. The increment (++) and decrement (--) operators are unusual in that you can place them either before or after the variable. Placing the operator symbol before the variable is called the prefix form of the operator, and using the operator symbol after the variable is called the postfix form.
+
+14. String Interpolation is a less memory intensive and less error prone alternative to String Concatenation. (using strin interpolation you can direct the computer to evaluate the expression in a string. You can include multiple variables and operators)
+
+15. The var keyword causes the compiler to deduce the type of the
+variables from the types of the expressions used to initialize them.(this also implicit typing)
