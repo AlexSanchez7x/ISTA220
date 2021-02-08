@@ -1,0 +1,4 @@
+select c.customerid, c.contactname, e.employeeid, e.firstname ||' '|| e.lastname as emp_name, o.orderid, count(o.orderid) as num_orders, printf("%.2f", sum(od.unitprice * od.quantity)) as order_total from customers c join orders o on c.customerid = o.customerid join employees e on o.employeeid = e.employeeid join order_details od on o.orderid = od.orderid group by c.customerid, e.employeeid, o.orderid having count(o.orderid) < 3 and sum (od.unitprice * od.quantity) < 50 order by order_total;
+
+
+select c.customerid, c.contactname, e.employeeid, e.firstname || ' ' || e.lastname as emp_name, count(o.orderid) as num_orders, printf("%.2f", avg(od.unitprice * od.quantity)) as order_avg from customers c join orders o on c.customerid = o.customerid join employees e on o.employeeid = e.employeeid join order_details od on o.orderid = od.orderid group by c.customerid, e.employeeid, o.orderid having avg(od.unitprice * od.quantity) > 2500 order by order_avg desc;

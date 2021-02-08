@@ -1,0 +1,69 @@
+1. What is the difference between deep copy and shallow copy?
+
+DEEP COPY copies data even what a reference type points to at the heap.
+SHALLOW COPY clone method that just copies references. Just what is on the stack.
+
+2. What is the value of a reference after you declare and initialize it?
+
+what ever you declare it as?
+
+3. How do you declare a value type?
+
+int phil = 42
+giving it a name and declaring the type and optionally giving it a value
+
+4. How do you declare a reference type?
+
+writting out the refference name and then usig the assignment operator and  new keyword to a assaign the reference type a memory address
+
+swan brandon = new Swan();
+
+
+5. Does C# allow you to assign NULL to a value type?
+
+No.
+
+int alex = null; does not work
+int? alex = null; is legal in c#
+
+6. Can you assign a nullable value type to a non-nullable variable of the same type? Why or why not?
+
+you cannot.
+int alice = 1;
+int? bob = 2
+alice = bob; ILLEGAL!!!
+		because bob is a nullable value type and you cannot assign nullable value types to a non nullable value type
+
+7. What is the difference between the stack and the heap?
+
+the stack stores value types are created and on the heap reference types are are on the heap but pointed to from the stack
+
+Stack memory is organized like a stack of boxes piled on top of one another. When a method is called, each parameter is placed in a box that is placed on top of the stack. Each local variable is likewise assigned a box, and these are placed on top of the boxes already on the stack. When a
+method finishes, you can think of the boxes being removed from the stack.
+
+Heap memory is like a large pile of boxes strewn around a room ratherthan stacked neatly on top of one another. Each box has a label indicatingwhether it is in use. When a new object is created, the runtime searches foran empty box and allocates it to the object. The reference to the object is
+stored in a local variable on the stack. The runtime keeps track of thenumber of references to each box. When the last reference disappears, the runtime marks the box as not in use, and at some point in the future it will empty the box
+and make it available.
+
+8. What does it mean when we say that all classes are specialized types?
+
+You can use System.Object to create a variable that can refer to any reference type.
+
+
+9. What does ref do?
+
+The ref keyword passes arguments by reference. It means any changes made to this argument in the method will be reflected in that variable when control returns to the calling method.
+When using a ref parameter, anything you do to the parameter you also do to theoriginal argument because the parameter and the argument both reference the
+same data lets you write a method that can modify arguments
+
+10. What does out do?
+
+same as ref but you dont have to initialize it.
+
+11. Describe boxing and unboxing in your own words.
+
+copying from the stack to the heap and
+
+12. What does cast do?
+
+lets you specifiy data referenced has a specific type and that its safe to reference the object using that type
